@@ -1,0 +1,23 @@
+{
+  "name": "@ds-design-system/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ayaf-Bless/ds-design-system.git",
+  "author": "Ayaf-Bless <blessambel1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^5.1.8"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build"
+  }
+}
