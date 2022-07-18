@@ -1,1 +1,7 @@
-# A design Sysytem using sass and React applying the atom principle
+# A design Sysytem for a website
+
+## Tools
+
+- Typescript
+- React
+- Sass
