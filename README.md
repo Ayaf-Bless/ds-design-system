@@ -1,4 +1,4 @@
-# A design Sysytem for a website
+# A design Sysytem for the ds website
 
 ## Tools
 
